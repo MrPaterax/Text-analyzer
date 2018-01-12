@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #66729e;
 }
 
 .container {
@@ -14,7 +15,9 @@ main {
   max-width: 960px;
   margin: 0 auto;
 }
-
+textarea {
+   border-radius: 4px;	
+}
 label {
   display: block;
 }
