@@ -2,7 +2,6 @@ $(function() {
    $("button").on("click", function(event) {
    	/*For the amount of words given.*/
    	 event.preventDefault();
-   	 $("p").text("fart");
      var wordCount = $("textarea").val().trim().split(/\s+/); // Use val for input elements to get the text, then trim the whitespace
      $("dl").removeClass("hidden"); // on both sides of the string, finally split it up into an array based on the spaces in between
      $(".wordCount").text(wordCount.length); // each character.

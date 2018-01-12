@@ -21,6 +21,16 @@ textarea {
 label {
   display: block;
 }
+button {
+	background-color: #73ecb0;
+	cursor: pointer;
+	border-radius: 2px;
+	border: 2px solid grey;
+}
+
+button:hover {
+	background-color: #67bd92;
+}
 
 .hidden {
   display: none;
