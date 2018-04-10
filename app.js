@@ -10,7 +10,7 @@ $(function() {
      /*For the unique amount of words.*/
      var  wordUnique = {};
      wordCount.forEach( function(x) {
-     	wordUnique[x] = (wordUnique[x] || 0) + 1; // Creates a key for the word passed in like wordUnique[fart] would be {fart: value}
+     	wordUnique[x] = (wordUnique[x] || 0) + 1; // Creates a key for the word passed in like wordUnique[apple] would be {apple: value}
      }); //then either references(if it doesn't exist it goes to null so it goes to 0 because of ||) and adds 1 to count.
      $(".uniqueWord").text(Object.keys(wordUnique).length); // Takes the keys of the object and turns it into an array so we can apply 
      // the length method. 
